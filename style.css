@@ -1,0 +1,346 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1px;
+    height: 6847px;
+}
+
+/* html{
+    overflow-x:hidden;
+} */
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background:  #141404;
+    border-bottom: 0.1px solid #ffffff;
+}
+body{
+    background:#f3e9d5;
+    height: 3500px;
+    /* keep the same readable spacing on the later body rule in case it's overridden */
+    line-height: 25px;
+}
+
+/* Increase vertical spacing between textual elements site-wide */
+.logo-img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.ul-h{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.li-h{
+    all: unset;
+    font-size: 18px;
+    color: #e9c77d;
+    cursor: pointer;
+}
+.img-m1{
+    width: 100%;
+}
+.text-m1{
+    position: absolute;
+    background-color: #141404;
+    width: 40%;
+    height: 114.5%;
+    top: 101px;
+    right: 0;
+}
+.main1-h1{
+    color: #f7e7c5;
+    font-size: 42px;
+    margin: 130px 0px 10px 40px;
+}
+.main1-p{
+    color: #f7e7c5;
+    font-size: 20px;
+    margin: 60px 0px 10px 40px;
+}
+.main1-li{
+    color: #f7e7c5;
+    font-size: 20px;
+    margin: 10px 0px 10px 40px;
+}
+.buttonblock-m1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.a-m1{
+    all: unset;
+    padding: 20px;
+    border-top: 3px solid #a4976b;
+    border-left: 3px solid #a4976b;
+    border-bottom: 3px solid #766c4c;
+    border-right: 3px solid #766c4c;
+    background:linear-gradient(#e9c77d, #bc9e5c);
+    cursor: pointer;
+    color:#4a3300;
+}
+.com-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: -40px;
+    
+}
+.com{
+    height: 100px;
+    width: 500px;
+    margin: 50px;
+    background-color: #d6ccac;
+    border-radius:  5%;
+}
+.com2{
+    margin-left: 130px;
+    margin-top: 90px;
+}
+.coments{
+    padding-top: 90px;
+    padding-left: 50px;
+    /* background: #000; */
+    width: 50%;
+}
+.com-h1{
+    position: relative;
+    top: -85px;
+    left: 50px;
+    color: #4a3300;
+    font-size: 20px;
+}
+.com-p{
+    position: relative;
+    width: 400px;
+    top: -80px;
+    left: 55px;
+    color: #352b15;
+    font-size: 16px;
+    line-height: 18px;
+}
+.pluses{
+    width: 50%;
+    margin-top: 90px;
+    /* background: #141404; */
+}
+.main2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.li-m2{
+    margin: 20px;
+    font-size: 28px;
+    color: #352b15;
+    padding-left: 30px;
+}
+.h2-m1{
+    margin: 20px;
+    font-size: 36px;
+    color: #352b15;
+}
+.icon-m2{
+    width: 30px;
+    height: 30px;
+}
+.worker-img{
+    width: 280px;
+    height: 280px;
+    border-radius: 10%;
+}
+.main3{
+    margin: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.worker-info{
+    width: 250px;
+    padding: 15px;
+    background:#d6ccac;
+    border-radius: 5%;
+}
+.card-style{
+    font-size: 24px;
+    color: #141404;
+    padding: 2px;
+}
+.card-style1{
+    font-size: 18px;
+    color: #141404;
+    padding: 2px;
+}
+.card-style2{
+    font-size: 20px;
+    color: #141404;
+    padding: 2px;
+}
+.m3-h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 42px;
+    color: #141404;
+}
+.card2{
+    margin-bottom: 30px;
+}
+.h2-m4{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 42px;
+    color: #141404;
+}
+.items-card-a{
+    all: unset;
+    cursor: pointer;
+}
+.items-card-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.items{
+    display: flex;
+    justify-content: space-around
+}
+.items-card-h2{
+    text-align: center;
+    font-size: 24px;
+    color: #141404;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 257px;;
+    background: #000;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.foot-p-tel{
+    color: #e9c77d;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    
+}
+.foot-p-github{
+    color: #e9c77d;
+    position: absolute;
+    top: 70px;
+    right: 15px;
+    
+}
+.foot-a{
+    all: unset;
+    color: #bc9e5c;
+    cursor: pointer;
+}
+.foot-a-inst{
+    all: unset;
+    color: #bc9e5c;
+    cursor: pointer;
+}
+.foot-p-inst{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+.foot-a-tg{
+    all: unset;
+    color: #bc9e5c;
+    cursor: pointer;
+}
+.foot-p-tg{
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+
+.bold{
+    font-weight:bolder;
+}
+
+.m3-a-cards{
+    all: unset;
+    cursor: pointer;
+}
+
+.col-t{
+    color: #352b15;
+}
+
+.card2:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.items-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.logo-img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}   
+
+.a-m1:hover{
+    background: linear-gradient(#bc9e5c, #e9c77d);
+    transform: scale(1.05);
+    transition: transform 10s;
+    transition: background 0.5s;
+}   
